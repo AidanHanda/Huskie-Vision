@@ -5,7 +5,7 @@ import sys
 import time
 import json
 
-class server:
+class Client:
     def __init__(self, HOST,PORT):
         self.sock = socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
         self.HOST = HOST
